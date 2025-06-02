@@ -1,6 +1,7 @@
 ### 🧪 Running Tests with Cucumber Tags
 
-You can use the `-Dcucumber.filter.tags` option to run specific scenarios based on their tags:
+You can use the `-Dcucumber.filter.tags` option to run specific scenarios based on their tags.
+Always use a command prompt terminal:
 
 - gradle test -Dcucumber.filter.tags="@login" 
   → Runs all scenarios that have the `@login` tag.
